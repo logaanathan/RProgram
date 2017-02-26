@@ -1,0 +1,28 @@
+# Clear the entire workspace
+
+rm(list = ls())
+
+List the contents of your workspace
+
+ls()
+
+find the var type
+class()
+
+# Convert var1 to a character:
+ var1_char
+var1_char <- as.character(var1)
+
+
+
+# See whether var1_char is a character
+
+is.character(var1_char)
+
+
+
+    Decimals values like 4.5 are called numerics.
+    Natural numbers like 4L are called integers. Integers are also numerics.
+    Boolean values (TRUE or FALSE) are called logical.
+    Text (or string) values are called characters.
+
