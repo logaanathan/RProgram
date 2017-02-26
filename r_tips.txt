@@ -1,3 +1,14 @@
+$ git config --global user.name
+$ git config --global user.name "sarah_long"
+$ git config --global user.email sarah.eliza.long@gmail.com
+$ git clone https://github.com/logaanathan/RProgram.git
+$ ls
+$ git add r_tips.txt
+$ git status
+$ git commit -m "first commit" r_tips.txt
+$ git push -u origin master
+-------------------------------------------------------
+
 # Clear the entire workspace
 
 rm(list = ls())
